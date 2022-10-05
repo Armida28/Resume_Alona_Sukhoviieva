@@ -1,0 +1,346 @@
+
+
+/* body шрифты для всего проэкта */
+body {
+font-family: "Montserrat", sans-serif;
+background-color: #F5F7FA;
+}
+
+
+
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* main-content */
+.main-content {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px ;
+}
+
+
+
+
+
+
+/* about styles */
+.about {
+    margin-bottom: 40px ;
+}
+
+.about-position {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-bottom: 20px;
+}
+
+.about-name {
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+color: #000000;
+margin-bottom: 25px;
+}
+
+.about-discription {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+width: 400px;
+}
+
+
+
+/* projects styles */
+.projects {
+    margin-bottom: 50px;
+    }
+
+
+.tittle {
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 15px;
+}
+
+/* 
+.projects-list {
+    padding: 0;
+    margin-left: 15px;}відступ від слова проджект до цифр
+ */ 
+
+ 
+.projects-list {
+  padding: 0;  
+  margin-left: 15px ;
+}
+
+
+
+
+
+.projects-item {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+
+.project, .project-link {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+/* .project-link {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+} */
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracked {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+
+
+/* work styles */
+.work {
+  margin-bottom: 45px;  
+}
+
+.work-position {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+margin-bottom: 10px;}
+
+.organization {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FB6D3A;}
+
+.period {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin-bottom: 10px;}
+
+.line {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #000000;}
+
+.work-list {
+padding: 0;
+margin-left: 15px;}
+
+.work-list-item {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;}
+
+
+
+/* education styles */
+.education {
+    
+}
+.education-organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.education-faculty {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+margin-bottom: 10px;
+}
+
+.period-education {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+}
+
+
+
+
+
+
+
+
+
+
+/* размер рисунка мое фото */
+.fit-picture {
+    width: 370px;
+    margin-bottom: 50px ;
+}
+
+/* коробочка див с контактами */
+.contacts {
+   margin-left: 40px;
+   margin-bottom: 50px;
+ 
+}
+
+/* коробочка див с тех скилз */
+.tech-skills {
+ margin-left: 40px;
+
+}
+
+/* .tech-skills відступ вних до софт скілз */
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+
+/* коробочка див с софт скилс */
+.soft-skills {
+ margin-left: 40px;
+}
+
+/* або: .contacts, .tech-skills, .soft-skills {
+    margin-left: 40px;
+}
+
+ */
+
+ /* sidebar styles */
+.sidebar {
+ background-color: #1E2939;
+ padding-top: 40px;
+ width: 370px;
+}
+
+
+
+/* sidebar, контакти,та tech skills */
+.sidebar-tittle {
+ color: #fff;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 27px;
+ margin-bottom: 10px;
+}
+
+
+
+/* "contact-type" класс контакты и эл адрес буквы tel и @ */
+.contact-type {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+margin-right: 10px;
+
+}
+
+
+/* class="contact-link"-это сам номер телефона и эл адрес (т.е инфо внутри) */
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #528CD0;
+}
+
+/* ul class="tech-skills-list" */
+.tech-skills-list {
+color: #FFFFFF; 
+padding: 0;  
+margin-left: 18px; 
+}
+
+/* <ul class="soft-skills-list"> */
+.soft-skills-list {
+color: #FFFFFF;
+padding: 0;
+margin-left: 18px;
+}
+
+/* li class="tech-skills-item"> клас для самого списку, для крапочок */
+.tech-skills-item {
+color: #FB6D3A;
+}
+
+/* +  отдельно текст, помимо крапочек выделеть другим цветом */
+
+
+/* <span class="tech-skills-text"> */
+.tech-skills-text {
+ color: #FFFFFF; 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+/* повторяем процедуру для софт скилз */
+
+/* <li class="soft-skills-item">клас для самого списку, для крапочок */
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.soft-skills-text {
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+
